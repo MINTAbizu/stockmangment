@@ -7,6 +7,7 @@ const inventorySchema = new mongoose.Schema({
     unit: String,
     cost: Number,
     quantity: Number,
+    
 });
 
 const InventoryItem = mongoose.model('InventoryItem', inventorySchema);
